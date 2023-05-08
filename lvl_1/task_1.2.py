@@ -16,7 +16,7 @@ my_favorite_songs = [
 ]
 songs = my_favorite_songs[4][1] + my_favorite_songs[2][1] + my_favorite_songs[7][1]
 songs = round(songs, 2)
-print('Три песни звучат', songs)
+print('Три песни звучат ', songs, ' минут')
 
 # Пункт B. 
 # Есть словарь песен 
@@ -37,4 +37,4 @@ my_favorite_songs_dict = {
 three_songs = my_favorite_songs_dict['Enjoy the Silence'] + my_favorite_songs_dict['Personal Jesus'] + \
                       my_favorite_songs_dict['World in My Eyes']
 three_songs = round(three_songs, 2)
-print('Три песни звучат ', three_songs, " минут")
+print('Три песни звучат ', three_songs, ' минут')
