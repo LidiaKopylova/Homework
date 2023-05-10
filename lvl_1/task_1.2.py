@@ -33,6 +33,8 @@ print(
 # Распечатайте общее время звучания трех случайных песен
 # Вывод: Три песни звучат ХХХ минут.
 
+import random
+
 my_favorite_songs_dict = {
     'Waste a Moment': 3.05,
     'New Salvation': 4.02,
