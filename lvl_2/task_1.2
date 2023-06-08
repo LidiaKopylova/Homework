@@ -1,0 +1,30 @@
+from random import randint
+def create_list():
+    n = 15
+    list = []
+    for i in range (n):
+        list.append(randint(1,99))
+    return list
+
+
+arr = create_list()
+print (arr)
+
+def minimum(arr):
+  result = float('inf')
+  for i in arr:
+    if i < result:
+
+      result = i
+  return result
+
+
+def maximum(arr):
+  result = float('-inf')
+  for j in arr:
+    if j > result:
+      result = j
+  return result
+
+print("Максимальное число из списка: ", maximum(arr))
+print("Минимальное число из списка: ", minimum(arr))
